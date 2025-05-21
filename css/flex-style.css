@@ -1,0 +1,101 @@
+/* Cabeçalho com transição */
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(136, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+/* Fundo mais escuro */
+#titulo:hover {
+    background-color: rgb(100, 0, 0);
+
+}
+
+/* Título dentro do cabeçalho */
+#titulo h1 {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 2.5rem;
+    color: white;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Só o texto faz zoom */
+#titulo:hover h1 {
+    transform: scale(1.05);
+}
+
+/* Seção da história */
+.historia {
+    max-width: 900px;
+    margin: 0 auto 2rem auto;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+/* Container com Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 1rem;
+}
+
+/* Card de vinho */
+.card-vinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+/* Imagem do vinho */
+.card-vinho img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Efeito de hover */
+.card-vinho:hover {
+    transform: scale(1.05) rotate(-1deg);
+    background-color: #ececec;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Título interativo com :hover */
+.card-vinho h3:hover {
+    color: rgb(136, 0, 0);
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+/* Parágrafo com foco */
+.card-vinho p:focus {
+    outline: 2px solid rgb(136, 0, 0);
+}
+
+/* Rodapé */
+#rodape {
+    background-color: rgb(136, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.95rem;
+    margin-top: 2rem;
+    border-top: 3px solid #8b0000;
+}
