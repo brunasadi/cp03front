@@ -1,6 +1,6 @@
 - Descrição
 
-Projeto individual desenvolvido para o Checkpoint 03 de Front-End, com foco em Flexbox e transformações CSS. A proposta é criar uma página única que represente a identidade visual da Vinharia Agnello, utilizando técnicas modernas de layout e interatividade.
+Projeto individual desenvolvido para o Checkpoint 03 de Front-End, com foco em Flexbox e transformações CSS. A proposta é criar uma página única que represente a identidade visual da Vinharia Agnello.
 
 -  Recursos Aplicados
 
@@ -12,7 +12,6 @@ Projeto individual desenvolvido para o Checkpoint 03 de Front-End, com foco em F
 
 Bruna Sadi Duarte rm 561870
 
-## 🔗 Links
-
+ Links
 - [Repositório no GitHub](https://github.com/brunasadi/cp03front.git)
-- [Site publicado no GitHub Pages](https://seu-usuario.github.io/checkpoint03-flexbox)
+- [Site publicado no GitHub Pages](https://brunasadi.github.io/cp03front/flex-layout.html)
